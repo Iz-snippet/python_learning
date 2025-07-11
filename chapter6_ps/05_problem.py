@@ -1,0 +1,1 @@
+# write a program to find whether a given name is present in list or not
