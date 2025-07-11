@@ -10,14 +10,16 @@
 marks= int(input("enter your marks:- "))
 
 if(marks<=100 and marks>=90):
-    print("you get  Ex grade ")
+    grade= "Ex"
 elif(marks<=90 and marks>=80):
-    print("you get  A grade ")
+    grade="A"
 elif(marks<=80 and marks>=70):
-    print("you get  B grade ")
+    grade="B"
 elif (marks<=70 and marks>=60):
-    print("you get  C grade ")
+    grade="C"
 elif(marks<=60 and marks>=50):
-    print("you get  D grade ")
+    grade="D"
 else:
-    print("you are failed in the exam")
+    grade="F"
+
+print("your grade is", grade)
