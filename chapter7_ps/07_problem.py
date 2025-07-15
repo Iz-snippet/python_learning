@@ -1,6 +1,6 @@
 # write a program to print following star pattern:
 #   *
-#   ***
+#  ***
 # ******    for n=3 
 
 
