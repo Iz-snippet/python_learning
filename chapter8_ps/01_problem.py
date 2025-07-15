@@ -1,19 +1,16 @@
-# write a python program to find greates amoung three numbers
+# write a python program to find greates amoung three numbers by using function
 
-def fg():
+
+def fg(a1,a2,a3):
     
-   a1=int(input("Enter the number :- "))
-   a2=int(input("Enter the number :- "))
-   a3=int(input("Enter the number :- "))
-
    if(a1>a2 and a1>a3):
-        print(f"{a1}is greatest")
+        return(f"{a1}is greatest")
    elif(a2>a1 and a2>a3):
-        print(f"{a2}is greatest")
+        return(f"{a2}is greatest")
    else:
-        print(f"{a3} is greatest")
+        return(f"{a3} is greatest")
 
-fg()
+print(fg(4,5,6))
 
 
     
