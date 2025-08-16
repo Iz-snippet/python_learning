@@ -1,6 +1,6 @@
 # Write __str__() method to print the vector as follows:7î + 8ĵ + 10k̂
 
-# Write a class Vector representing a vector of n dimension. Overload the + and * operators which calculate the sum and the dot product of them.
+
 
 class Vector:
     def __init__(self,x,y,z):
