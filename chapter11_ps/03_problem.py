@@ -1,3 +1,6 @@
+# Create a class Employee and add salary and increment properties to it.
+# Write a method salaryAfterIncrement with a @property decorator with a setter which changes the value of increment based on the salary.
+
 class Employee:
     salary = 234
     increment = 20 
